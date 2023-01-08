@@ -3,18 +3,19 @@ TOC
 Data Types
 Data Type Conversion
 
-Lopping Concepts
+Looping Concepts
 
 Classes and Objects
 Variables
 Methods
-Constructors
+
 Types of Variables
 Types of Methods
 static
+--------------------------------
 Constructor
 this
-
+Constructors
 OOPS
 INheritance
 Polymorphism
