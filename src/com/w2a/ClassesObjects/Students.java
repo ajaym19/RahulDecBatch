@@ -2,14 +2,30 @@ package com.w2a.ClassesObjects;
 
 public class Students {
 
+	/*
+	 * Constructor:
+	 * used to initialize the variables
+	 * 1. Same as class Name
+	 * 2. Does not return anything
+	 * 3. It is not compulsory to create a constructor, there is default constructor also
+	 * 4. There can be multiple constructor
+	 */
+	
 	int sid;
 	String sname;
 	long mobileNo;
 	String gender;
 	String courseName;
 	static String schoolName;
-
 	
+	
+	public Students(int sid, String sname) {
+		//at this place, there are 2 variables with the same name
+		System.out.println(sid);
+		this.sid = sid;
+		this.sname = sname;
+	}
+
 	public void attendSessions() {
 		System.out.println(sid);
 		System.out.println("Students are attending sessions");

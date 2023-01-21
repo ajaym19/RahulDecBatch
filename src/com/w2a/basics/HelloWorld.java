@@ -1,6 +1,8 @@
 package com.w2a.basics;
 
-public class HelloWorld {
+import InheritanceDemo.SchoolBase;
+
+public class HelloWorld extends SchoolBase{
 
 	//this is single line comment
 	

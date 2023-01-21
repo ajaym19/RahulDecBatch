@@ -12,13 +12,16 @@ Methods
 Types of Variables
 Types of Methods
 static
---------------------------------
+
 Constructor
 this
-Constructors
+
+
 OOPS
 INheritance
 Polymorphism
+
+--------------------------------
 Abstraction
 Encapsulation
 
