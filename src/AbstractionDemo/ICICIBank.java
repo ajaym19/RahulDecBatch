@@ -54,5 +54,11 @@ public class ICICIBank extends AbstractParentClass implements IRBI, ISEBI {
 		
 	}
 
+	@Override
+	public void getDepositRates() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 }
