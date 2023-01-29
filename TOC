@@ -21,13 +21,13 @@ OOPS
 Inheritance
 Polymorphism
 
---------------------------------
+
 Abstraction
 Encapsulation
 
 String
 Array
-
+--------------------------------
 Collections
 ArrayList
 LinkedList
