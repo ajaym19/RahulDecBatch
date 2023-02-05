@@ -1,6 +1,7 @@
 package CollectionsDemo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
 
@@ -74,7 +75,18 @@ public class ArrayListDemo {
 		 * there is a list, sort the list in ascending order
 		 * 
 		 */
+	
+		int age = 15;
+		if (age>18) {
+			System.out.println("Allowed to Vote");
+		}else {
+			System.out.println("Not allowed");
+		}
 		
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i));
+			
+		}
 		
 		
 		
