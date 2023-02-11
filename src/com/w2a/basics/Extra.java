@@ -1,17 +1,38 @@
 package com.w2a.basics;
 
+import FileHandlingExceptionHandling.ExcelReader;
+
 public class Extra {
+	static ExcelReader obj;
 
 	public static void main(String[] args) {
-		int age = 18;
-		//if the age is 18 or more, allowed to vote
-		//else not allowed
-		//BVA: 17 ,18, 19
+		printArray(new int[] {1,2,3});
+		System.out.println(obj);
 		
-		if (age>18) {
-			System.out.println("Allowed to Vote");
-		}else {
-			System.out.println("Not allowed to Vote");
+		int[] arr = new int[5];
+		arr[0] = 20;
+		for (int i : arr) {
+			System.out.println(i);
+		}
+		
+		Integer[] abc = new Integer[5];
+		abc[0] = 70;
+		for (Integer x : abc) {
+			System.out.println(x);
 		}
 	}
+	
+	public static void printArray(int[] a) {
+		for (int i : a) {
+			System.out.println(i);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }

@@ -1,5 +1,8 @@
 package CollectionsDemo;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class ArrayDemo {
 	
 	public static void main(String[] args) {
@@ -33,6 +36,7 @@ public class ArrayDemo {
 		System.out.println(id[2]); //
 		System.out.println(id[3]); //
 		System.out.println(id[4]); //
+		System.out.println(id);
 		System.out.println("Length of Array is ==> "+ id.length);
 		
 	//	System.out.println(id[5]); 
@@ -61,6 +65,7 @@ public class ArrayDemo {
 		int[] b = {10, 30, 20};
 		System.out.println(b.length);
 		
+
 	}
 
 }
